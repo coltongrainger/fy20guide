@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="good-to-know">
+  <title>Hello and Welcome!</title>
+
+  <figure>
+    <caption>What do I need for this course? [Robert Ghrist, 2012. Penn State.]</caption>
+    <video xml:id="ghrist-prereqs" youtube="nqDVJFlahpU" start="67" end="171" play-at="embed" preview="default" />
+  </figure>
+
+  <p>Given Ghrist's advice, in this chapter we'll quickly review the background needed for MATH 2150: manipulating numbers, overcoming mistakes, setting up coordinate systems, and solving simultaneous equations. </p>
+
+  <aside>Because the prototypical example of a function will be given by evaluating polynomials, you might keep polynomials in the back of your mind while going through this review.</aside> 
+
+  <p>This material will not be (directly) examined, but I've included it regardless. It seems wise to hash out as many technical details as is necessary to <em>remember what's good</em> after the reader (and myself included) likely spent most of summer not looking at calculus-level mathematics.</p>
+
+  <p>You are free to initially skim this material, then loop back to it at any time during the semester. Perhaps you'll want to test yourself against some of the inline <webwork /> exercises, which look like:</p>
+
+  <exercise>
+    <title>Scientific Notation</title>
+    <webwork source="/local/Library/CollegeOfIdaho/setAlgebra_01_07_ScientificNotation/17IntAlg_09_ScientificNot.pg" />
+  </exercise>
+
+  <exercise>
+    <title>Hydrogen Atoms</title>
+    <webwork source="/local/Library/CollegeOfIdaho/setAlgebra_01_07_ScientificNotation/17IntAlg_16_ScientificNot.pg" />
+  </exercise>
+
+  <p>Note that you have as many attempts on this problems as you would like. At any time you can (say mercy! and) look at the solutions. </p>
+  <p>If a problem is broken, kindly email Colton.</p>
+
+  <assemblage>
+    <title>Benediction [Richard Hamming, 7 March 1986. Talk at Bellcore.]</title>
+    <p>
+        Therefore, go forth and become great scientists! 
+    </p>
+  </assemblage>
+
+</section>
