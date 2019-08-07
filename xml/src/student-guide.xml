@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <xi:include href="./docinfo.xml"/>
+<book>
+    <title>Student's Guide</title>
+    <subtitle>
+            MATH 2150 Statistics
+    </subtitle>
+
+    <xi:include href="./frontmatter.xml"/>
+        
+<chapter xml:id="background">
+    <title>Background</title>
+    <introduction>
+      <q>A shout Loud as from numbers without number.</q> [Milton, 1667. Paradise Lost, iii.346.]
+      <!-- <image source="https://upload.wikimedia.org/wikipedia/commons/a/a3/ParadiseLThomas3.jpg" /> -->
+    </introduction>
+    <xi:include href="./good-to-know.xml"/>
+    <xi:include href="./manipulating-numbers.xml"/>
+    <xi:include href="./setting-up-coordinates.xml"/>
+    <xi:include href="./solving-simultaneous-equations.xml"/>
+</chapter>
+
+<chapter xml:id="sets-and-functions">
+    <title>Sets and Functions</title>
+    <introduction>
+      <q>Let's talk about [sets], baby.</q> [Salt-N-Pepa, 1990. Blacks' Magic, Track 10.]
+      <!-- <image source="https://images.squarespace-cdn.com/content/v1/5aef35003e2d0905837f7d46/1555908974490-GKPQIE3WBJ10DY12OUO8/ke17ZwdGBToddI8pDm48kG-M8Yx5SfWajxA5mbggqsMUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcuIokUEnf1BrpkEZS0sodxn5AsAlU-0tPhcJcrtzI-9JCfzaWiF9Nl2ChpOowJBzm/salt-n-pepa-essential-songs-listen-637d6f74-8e06-4087-ae3d-d3d81ed4d98d.jpg"/> -->
+    </introduction>
+    <xi:include href="./sets.xml"/>
+    <xi:include href="./functions.xml"/>
+</chapter>
+
+</book>
+</pretext>

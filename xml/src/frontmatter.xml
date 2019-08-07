@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<frontmatter xml:id="frontmatter">
+    <titlepage>
+        <author>
+            <personname>Various Authors</personname>
+        </author>
+        <author>
+            <email>colton.grainger@colorado.edu</email>
+        </author>
+        <credit>
+            <title>
+                    Roughly compiled from 7<m>+</m> <pretext /> books, 5<m>+</m> sets of lecture notes, and the WeBWork Open Problem Library.
+            </title>
+        </credit> 
+        <date>
+            <today/>
+        </date>
+    </titlepage>
+    <colophon xml:id="colophon">
+        <copyright>
+            <year>2019</year>
+            <holder>Various Authors (see acknowledgements and source code)</holder>
+
+            <shortlicense>
+                <p>Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section entitled <q>GNU Free Documentation License</q>.</p>
+                <p>
+                    <url href="https://www.gnu.org/licenses/fdl-1.3.en.html"/> 
+                </p>
+                <p>As well, this document is an adaptation of works in the creative commons, and should therefore also be distributed with a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license (CC BY-NC-SA 4.0).</p>
+                <p>
+                    <url href="https://creativecommons.org/licenses/by-nc-sa/4.0/"/> 
+                </p>
+            </shortlicense>
+        </copyright>
+    </colophon>
+<acknowledgement>
+    <p>This document is adapted from the following: 
+    <ul>
+        <li><url href="http://www.math.ubc.ca/~andrewr/CLP/clp_home.html"/> <em>Active Calculus</em> by Matthew Boelkins, David Austin, and Steven Schlicker;</li> 
+        <li><url href="http://www.math.ubc.ca/~andrewr/CLP/clp_home.html"/> <em>CLP-1 Differential Calculus</em> by Joel Feldman, Andrew Rechnitzer, Elyse Yeager;</li> 
+        <li><url href="http://spot.pcc.edu/math/clm/"/> <em>Calculus Lab Manual</em> by Alex Jordan (and others at PCC);</li> 
+        <li><url href="http://math.hws.edu/~mitchell/Math130F16/Math130F16.php"/> <em>Math 130 Course Notes</em> by Kevin Mitchell;</li> 
+        <li><url href="https://github.com/COIMAPS/MAT102Functions"/> <em>MAT 102 Functions</em> by Robin Cruz, Lynda Danielson, and Katherine Yoshiwara;</li> and 
+        <li><url href="http://educ.jmu.edu/~waltondb/MA2C/"/> <em>Calculus: A Modeling Approach</em> by D. Brian Walton.</li>
+    </ul>
+    </p>
+
+    <p>As a derived work, this document is distributed with the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license (<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>). Verbatim, or closely verbatim, use of the materials above is indicated either by an in-line citation or, where appropriate, by a comment in the source <c>xml</c>. This <em>does not</em> imply that the cited authors endorse this work. </p>
+
+    <p>For content that is compiled from many of the materials listed above, I ask the reader: 
+        <ul>
+        <li> First, assume that <q>the creativity is the original authors' and the mistakes are my own</q>; </li>
+        <li> Second, look for the (primary) author listed in <attr>AuthorBylin</attr> attribute or in comments to the source <c>xml</c>; </li>
+        <li> Third, assume good faith. </li>
+        </ul>
+            I compiled this document in the scope of my responsibilities as a graduate teaching assistant. There may be typos, unexpected copyright violations, or failures of understanding. Kindly email any questions, comments, complaints, or corrections to <url href="mailto:colton.grainger@colorado.edu?subject=pretext-student-guide">colton.grainger@colorado.edu</url>. Thank you.</p>
+</acknowledgement>
+</frontmatter>

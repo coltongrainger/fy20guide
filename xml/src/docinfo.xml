@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<docinfo xml:id="docinfo">
+    <macros>
+    \newcommand{\indefiniteintegral}[2]{\int#1\,d#2} % comments get stripped
+    </macros>
+    <cross-references text="type-global" />
+    <feedback>
+        <url>mailto:colton.grainger@colorado.edu</url>
+        <text>Send feedback here.</text> 
+    </feedback>
+    <latex-image-preamble>
+    <![CDATA[
+    \usepackage{pgfplots}
+    ]]>
+    </latex-image-preamble>
+</docinfo>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="good-to-know">
+  <title>Hello and Welcome!</title>
+
+  <figure>
+    <image source="images/2017-neubecker.jpg"/>
+    <caption>Robert Neubecker, 2017. 
+      <url href="https://www.doi.org/10.1126/science.caredit.aar5446"/>
+    </caption>
+  </figure>
+
+  <assemblage>
+    <p>
+        First and most importantly, congratulations! If you are enrolled in MATH 2150, you have proven
+        yourself to be a smart, hardworking individual capable of learning complicated material and
+        improving your statistics skills. The admissions office doesn’t make mistakes: you belong at
+        CU Boulder, and you belong in this class. You are welcome here.
+    </p>
+  </assemblage>
+
+<p>This chapter is a quick review of the mathematical prerequisities for MATH 2150: manipulating numbers, overcoming mistakes, setting up coordinate systems, and solving simultaneous equations. </p>
+
+<p>This material will not be directly examined, but I've included it regardless. It seems wise to <em>remember what's good</em> after the reader (and myself included) perhaps did not spend the summer doing mathematics.</p>
+
+<p>You are free to initially skim this material, then loop back to it at any time during the semester. Perhaps you'll want to test yourself against some of the inline <webwork /> exercises, which look like:</p>
+
+    <exercise xml:id="degree-centigrade">
+      <title>Nice Example of an Inline WeBWork Problem</title>
+      <webwork source="Library/CollegeOfIdaho/setAlgebra_01_01_AlgebraicExpressions/11IntAlg_01_AlgebraicExpressions.pg"/>
+    </exercise>
+
+  <assemblage>
+    <p>If a problem is broken, kindly email Colton: <url href="mailto:colton.grainger@colorado.edu?subject=pretext-student-guide">colton.grainger@colorado.edu</url>.</p>
+  </assemblage>
+
+    <p>Note that you have as many attempts on this problems as you would like. At any time you can (say mercy! and) look at the solutions. </p>
+
+    <figure>
+      <caption>Robert Neubecker, 2019.
+    <url href="https://www.doi.org/10.1126/science.caredit.aay9385"/>
+    </caption>
+    <image source="images/2019-neubecker.jpg"/>
+  </figure>
+</section>
