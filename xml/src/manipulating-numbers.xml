@@ -170,7 +170,7 @@
     </example>
     <exercise>
       <title>Exponential Form</title>
-      <webwork source="local/Library/Rochester/setAlgebra02ExponentsRadicals/sw1_3_25.pg"/>
+      <webwork source="Library/Rochester/setAlgebra02ExponentsRadicals/sw1_3_25.pg"/>
     </exercise>
     <example>
       <title>Quotient Rule of Exponents</title>

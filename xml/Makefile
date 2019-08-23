@@ -2,7 +2,7 @@
 ## Copyright 2018-2019                                                   ##
 ## Mitchel T. Keller                                                     ##
 ##                                                                       ##
-## This file is part of The PreTeXt Basics Reference (The sgm2150).          ##
+## This file is part of The PreTeXt Basics Reference (The sgm2510).          ##
 ##                                                                       ##
 ## Permission is granted to copy, distribute and/or modify this          ##
 ## document under the terms of the GNU Free Documentation License,       ##
@@ -12,7 +12,7 @@
 ## section entitled “GNU Free Documentation License”.                    ##
 ##                                                                       ##
 ## You should have received a copy of the GNU Free Documentation License ##
-## along with The sgm2150. If not, see <http://www.gnu.org/licenses/>.       ##
+## along with The sgm2510. If not, see <http://www.gnu.org/licenses/>.       ##
 ## ********************************************************************* ##
 
 #######################
@@ -77,7 +77,7 @@ IMAGESOUT  = $(OUTPUT)/images
 
 # Some aspects of producing these examples require a WeBWorK server.
 # We default to using the AIM-provided development server.
-SERVER = "http://127.0.0.1"
+SERVER = "(https://webwork-ptx.aimath.org/,anonymous,anonymous,anonymous,anonymous)"
 
 ################
 #Targets for make
@@ -87,18 +87,18 @@ SERVER = "http://127.0.0.1"
 #  webwork-extraction.xml which holds multiple versions of each problem.
 #  Also locally store images from the WeBWorK server.
 
-sgm2150-extraction:
+sgm2510-extraction:
 	install -d $(WWOUT)
 	-rm $(WWOUT)/webwork-extraction.xml 
 	PYTHONWARNINGS=module $(PTX)/script/mbx -c webwork -d $(WWOUT) -s $(SERVER) $(MAINFILE)
 
-sgm2150-merge:
+sgm2510-merge:
 	cd $(WWOUT); \
-	xsltproc -xinclude --stringparam webwork.extraction $(WWOUT)/webwork-extraction.xml $(PTXXSL)/pretext-merge.xsl $(MAINFILE) > sgm2150-merge.ptx
+	xsltproc -xinclude --stringparam webwork.extraction $(WWOUT)/webwork-extraction.xml $(PTXXSL)/pretext-merge.xsl $(MAINFILE) > sgm2510-merge.ptx
 
 # Generate HTML output
 # Output is:  $(HTMLOUT)/${MAINFILE%*.}.html
-html: sgm2150-merge
+html: sgm2510-merge
 	install -d $(OUTPUT)
 	install -d $(HTMLOUT)
 	-rm -rf $(HTMLOUT)/knowl
@@ -117,20 +117,20 @@ html: sgm2150-merge
 	-stringparam html.knowl.example yes \
 	-stringparam html.knowl.exercise.inline no \
 	-stringparam html.css.colorfile colors_pastel_blue_orange.css \
-	$(PTXXSL)/mathbook-html.xsl $(WWOUT)/sgm2150-merge.ptx
+	$(PTXXSL)/mathbook-html.xsl $(WWOUT)/sgm2510-merge.ptx
 
 # make all the image files in svg format
-images: sgm2150-merge
+images: sgm2510-merge
 	install -d $(OUTPUT)
 	install -d $(IMAGESOUT)
 	-rm $(IMAGESOUT)/*.svg
-	$(PTX)/script/mbx -c latex-image -f all -d $(IMAGESOUT) $(OUTPUT)/sgm2150-merge.ptx
+	$(PTX)/script/mbx -c latex-image -f all -d $(IMAGESOUT) $(OUTPUT)/sgm2510-merge.ptx
 
-# see: sgm2150-merge
+# see: sgm2510-merge
 # 	install -d $(OUTPUT)
 # 	install -d $(IMAGESOUT)
 # 	-rm $(IMAGESOUT)/*.svg
-# 	$(PTX)/script/mbx -c preview -d $(IMAGESOUT) $(OUTPUT)/sgm2150-merge.ptx
+# 	$(PTX)/script/mbx -c preview -d $(IMAGESOUT) $(OUTPUT)/sgm2510-merge.ptx
 
 preview:
 	cd $(HTMLOUT); \
@@ -139,7 +139,7 @@ preview:
 # Generate PDF output by first producing LaTeX and then compiling with
 # ENGINE.
 # Output is: $(PDFOUT)/${MAINFILE%*.}.pdf
-pdf: sgm2150-merge
+pdf: sgm2510-merge
 	install -d $(OUTPUT)
 	install -d $(PDFOUT)
 	install -d $(PDFOUT)/images
@@ -148,7 +148,7 @@ pdf: sgm2150-merge
 	-cp -a $(WWOUT)/*.png $(PDFOUT)/images
 	cp -a $(IMAGESSRC) $(PDFOUT)
 	cd $(PDFOUT); \
-	xsltproc -o ${MAINFILE%*.}.tex -xinclude -stringparam numbering.theorems.level 1 -stringparam numbering.projects.level 1 -stringparam numbering.equations.level 1 $(PTXXSL)/mathbook-latex.xsl $(WWOUT)/sgm2150-merge.ptx; \
+	xsltproc -o ${MAINFILE%*.}.tex -xinclude -stringparam numbering.theorems.level 1 -stringparam numbering.projects.level 1 -stringparam numbering.equations.level 1 $(PTXXSL)/mathbook-latex.xsl $(WWOUT)/sgm2510-merge.ptx; \
 	$(ENGINE) ${MAINFILE%*.}; \
 	$(ENGINE) ${MAINFILE%*.}
 

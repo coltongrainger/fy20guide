@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="solving-simultaneous-equations">
-  <title>Solving Simultaneous Equations</title>
+  <title>Solving Equations</title>
   <authorbyline>Robin Cruz</authorbyline>
   <introduction>
       Plotting two <term>linear equations</term> simultaneously allows us to <em>graphically</em> determine the <term>solutions</term> to that pair of linear equations. Moreover, we can determine solutions to general systems of equations either <em>with a graph</em>, or <em>by substitution</em>, or <em>by elimination</em>, or with any combination thereof. Surpisingly, exponential curves have much in common with lines, so we'll consider curve fitting as a particular application. (I also wouldn't be doing my job if we didn't review exponential functions.)
@@ -368,7 +368,7 @@
   </subsection>
 
   <subsection>
-    <title>Fitting Exponential Curves</title>
+    <title>(optional) "Fitting" Exponential Curves</title>
     <introduction>
       <p><xref ref="background-fitting-linear-exponential-curves" /> might be challenging to do cold turkey, but it's similar (in spirit) to the problems above, so I'm including it.</p>
       <p>If you don't like this problem, you could start on <xref ref="background-exponent" />, then loop back to this problem last. You might try skimming section 4.2.1 of <url href="https://mhcc.edu/precalc1/logarithmic-functions-gist.html" /> for a discussion of the natural logarithm.</p>

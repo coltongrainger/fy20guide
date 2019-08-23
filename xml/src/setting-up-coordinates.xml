@@ -574,22 +574,4 @@
       </p>
     </assemblage>
   </subsection>
-
-  <subsection>
-    <!--TODO-->
-    <title>
-      (*) Polynomials
-    </title>
-    <exercise>
-      <webwork source="local/mhcc5112.pg" />
-    </exercise>
-    <exercise>
-      <title>A Cubic Polynomial</title>
-      <webwork source="local/mhcc9217.pg" />
-    </exercise>
-    <exercise>
-      <title>A Higher Order Polynomial</title>
-      <webwork source="local/mhcc912.pg" />
-    </exercise>
-  </subsection>
 </section>

@@ -1,4 +1,4 @@
-# MATH 2150 Student Guide
+# MATH 2510 Student Guide
 
 An experimental compilation of material from about 7 different PreTeXt books.
 
