@@ -37,7 +37,7 @@
 # Main directory for PreTeXt Basics Reference
 # Example:
 # MAINDIR = /Users/justice/Documents/github/pretext-basics-reference
-MAINDIR = /home/colton/fy/20/fall-2019-math-2510-pretext/xml
+MAINDIR = /home/colton/fy/20/guide
 
 # PreTeXt distribution root
 # Example:
