@@ -8,7 +8,7 @@
     <xi:include href="./frontmatter.xml"/>
         
 <chapter xml:id="background">
-    <title>Background</title>
+    <title>Hello and Welcome!</title>
     <introduction>
       <image source="https://images.squarespace-cdn.com/content/v1/5aef35003e2d0905837f7d46/1555908974490-GKPQIE3WBJ10DY12OUO8/ke17ZwdGBToddI8pDm48kG-M8Yx5SfWajxA5mbggqsMUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcuIokUEnf1BrpkEZS0sodxn5AsAlU-0tPhcJcrtzI-9JCfzaWiF9Nl2ChpOowJBzm/salt-n-pepa-essential-songs-listen-637d6f74-8e06-4087-ae3d-d3d81ed4d98d.jpg"/>
         <p>
@@ -22,7 +22,7 @@
     <xi:include href="./sets.xml"/>
 </chapter>
 
-<chapter><title>(up-next) Data Wrangling</title></chapter>
+<!-- <chapter><title>(!) Data Wrangling</title></chapter> -->
 <!-- <chapter><title>(!) Probability and Measure</title></chapter> -->
 <!-- <chapter><title>(!) Statistical Distributions</title></chapter> -->
 <!-- <chapter><title>(!) Hypothesis Testing and Inference</title></chapter> -->

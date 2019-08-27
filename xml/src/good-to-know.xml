@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="good-to-know">
-  <title>Hello and Welcome!</title>
+  <title>Mathematical Background</title>
 
-  <assemblage>
     <p>This chapter is a whirlwind review of the mathematical prerequisities for MATH 2510. We will see how: to manipulate algebraic expressions, to graph in Cartesian coordinates, to solve simultaneous systems of equations, and to describe sets by their elements.</p>
 
+  <assemblage>
   <p>This material will not be directly examined. However, it's <emph>good practice</emph> and <emph>vaguely resembles 2 years of high school algebra</emph>.</p>
   </assemblage>
 
